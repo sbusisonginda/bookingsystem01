@@ -13,10 +13,10 @@ if ($text == "") {
 } else if ($text == "1") {
         //Bussiness logic for the first level response
         $response .= "CON check if space is available \n";
-        $response .= "1. Collection";
+        $response .= "1. Collection \n";
         $response .= "2. New Application";
   } else if($text == "2") {
-    $response .= "1. Collection";
+    $response .= "1. Collection \n";
     $response .= "2. Re-Application";
   } else if ($text == "1*1") {
     $collectionDate = "2021-11-04";
